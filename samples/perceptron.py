@@ -12,6 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from keras.activations import sigmoid
 
+#if true accuracy is greater because the data can be seperated by one linear line
 linearSeparableFlag = True
 x_bias = 0
 
