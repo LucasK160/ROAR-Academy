@@ -33,9 +33,9 @@ while True:
 
     # First retrieve the time
     now_time = datetime.now()
-    hour = now_time.hour
+    hour = now_time.hour + now_time.minute + now_time.second
     if hour>12: hour = hour - 12
-    minute = now_time.minute
+    minute = now_time.minute + now_time.second
     second = now_time.second
 
     # Calculate end points of hour, minute, second
